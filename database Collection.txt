@@ -1,0 +1,50 @@
+Users Collection:
+{
+  "id": INT,
+  "name": STRING,
+  "email": STRING,
+  "password": STRING,
+  "phoneNumber": STRING,
+  "avatarResourceId": INT,
+  "bio": STRING
+}
+
+Recipes Collection:
+{
+  "id": INT,
+  "title": STRING,
+  "ingredients": STRING,
+  "instructions": STRING,
+  "userId": INT
+}
+
+Categories Collection:
+{
+  "id": INT,
+  "name": STRING
+}
+
+Favorites Collection:
+{
+  "userId": INT,
+  "recipeId": INT
+}
+
+MealPlans Collection:
+{
+  "id": INT,
+  "date": STRING,
+  "mealType": STRING,
+  "recipeTitle": STRING,
+  "userId": INT
+}
+
+Blogs Collection:
+{
+  "id": INT,
+  "title": STRING,
+  "content": STRING,
+  "imageResourceId": INT,
+  "date": STRING,
+  "userId": INT
+}
